@@ -32,10 +32,6 @@ a {
   color: #2563eb;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .Monprofil {
   display: grid;
   grid-template-columns: 1fr 1fr;
