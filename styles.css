@@ -1,23 +1,71 @@
 body {
-  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8fafc;
+  color: #374151;
 }
 
 .cv {
-  max-width: 800px;
-  margin: 40px;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
 }
 
-em {
-  color: #555;
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #2563eb;
 }
 
 .header p {
+  margin: 6px 0;
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+  color: #2563eb;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.Monprofil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.Profil_section,
+.Formation_section,
+.Experience_section,
+.Competences_section,
+.Centres_d_interet_section,
+.Langues_section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+em {
+  color: #6b7280;
+}
+
 li {
-  list-style-type: square;
+  list-style: square;
+  margin-left: 20px;
 }
